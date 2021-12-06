@@ -1,0 +1,30 @@
+{
+  "name": "@emilindadie/shopmodelpkg",
+  "version": "1.0.0",
+  "description": "Simple package for shop apps",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "deploy": "npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emilindadie/ShopModelPkg.git"
+  },
+  "author": "emilindadie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emilindadie/ShopModelPkg/issues"
+  },
+  "homepage": "https://github.com/emilindadie/ShopModelPkg#readme",
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "jest": "^27.4.3",
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {},
+  "publishConfig": {
+    "@emilindadie:registry": "https://npm.pkg.github.com"
+  }
+}
