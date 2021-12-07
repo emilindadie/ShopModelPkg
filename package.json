@@ -2,7 +2,7 @@
   "name": "@emilindadie/shopmodelpkg",
   "version": "1.0.0",
   "description": "Simple package for shop apps",
-  "main": "src/index.ts",
+  "main": "src/main.ts",
   "scripts": {
     "test": "jest",
     "build": "tsc",
